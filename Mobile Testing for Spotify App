@@ -1,0 +1,22 @@
+Project 2: Mobile Testing for Spotify App - Playlist Creation
+Scenario: Unable to create a new playlist
+
+Steps Reproduce:
+
+1-) Open the Spotify app on a mobile device.
+2-) Tap on the “Your Library” tab.
+3-) Click on “Create Playlist.”
+4-) Enter a name for the new playlist and tap “Create.”
+
+Expected Result: A new playlist should be created, and the user should be able to add songs to it.
+
+Actual Result: After tapping "Create," an error message appears: "Unable to create a playlist at this time. Please try again later."
+
+Severity: Medium
+Priority: High
+Bug Type: Functional
+Environment: iOS 16.1, iPhone 13
+Attachments:
+
+Screenshot: Playlist_Error.jpg
+Video: Playlist_Error_Screen.mp4
